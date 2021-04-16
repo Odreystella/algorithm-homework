@@ -2,15 +2,15 @@
 # 예를 들어 n이 12345이면 [5,4,3,2,1] 리턴
 
 def solution(n):
-    answer = [i for i in str(n)]
+    answer = [int(i) for i in str(n)]
     return answer[::-1]
 
 
 # test code
 
-# solution(12345)   
+# print(solution(12345))   
 # >> ['5', '4', '3', '2', '1']
 
-# solution(456718)
+# print(solution(456718))
 # >> ['8', '1', '7', '6', '5', '4']
 
